@@ -9,6 +9,8 @@ public class NhaTro {
     double gia  = 0.0;
     String diaChi = "";
 
+    public NhaTro(){super();};
+
     public NhaTro(String maNT, String moTa, double dienTich, int isThue, boolean isGac, double gia, String diaChi) {
         MaNT = maNT;
         this.moTa = moTa;

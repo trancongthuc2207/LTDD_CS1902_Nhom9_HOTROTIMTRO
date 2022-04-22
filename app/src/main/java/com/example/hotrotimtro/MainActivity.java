@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import com.example.hotrotimtro._Anima.SplashActivity;
+import com.example.hotrotimtro._TrangChu.TrangChu;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
@@ -34,6 +34,9 @@ public class MainActivity extends AppCompatActivity {
                 FirebaseUser user = auth.getCurrentUser();
 
                 Toast.makeText(MainActivity.this, user.getEmail().toString(), Toast.LENGTH_SHORT).show();
+                Intent trangchu = new Intent(MainActivity.this, TrangChu.class);
+                startActivity(trangchu);
+                finishAffinity();
             }
         });
     }

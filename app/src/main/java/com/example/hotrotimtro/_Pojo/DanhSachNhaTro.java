@@ -1,6 +1,5 @@
 package com.example.hotrotimtro._Pojo;
 
-import com.example.hotrotimtro._Pojo.NhaTro;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +24,8 @@ public class DanhSachNhaTro {
     }
 
     ///
+    public DanhSachNhaTro(){super();};
+
     public DanhSachNhaTro(String maChu, List<NhaTro> dsNhaTro) {
         this.maChu = maChu;
         this.dsNhaTro = dsNhaTro;

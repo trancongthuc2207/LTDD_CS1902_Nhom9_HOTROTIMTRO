@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">HOTROTIMTRO</string>
+    <string name="action_trangchu">Trang Chủ</string>
+    <string name="action_chothue">Đăng tin thuê</string>
+    <string name="action_lichsuthue">Lịch sử thuê</string>
+    <string name="action_taikhoan">Tài Khoản</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="trangchu_fragment">TRANG CHỦ</string>
+    <string name="chothue_fragment">CHO THUÊ</string>
+    <string name="lichsu_fragment">LỊCH SỬ THUÊ</string>
+    <string name="taikhoan_fragment">TÀI KHOẢN</string>
 </resources>
