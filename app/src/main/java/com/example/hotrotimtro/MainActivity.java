@@ -1,48 +1,24 @@
 package com.example.hotrotimtro;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.Toast;
 
-import com.example.hotrotimtro._TrangChu.TrangChu;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
+import com.example.hotrotimtro._Login.LoginActivity;
+import com.example.hotrotimtro._SignUp.SignUpActivity;
 
 public class MainActivity extends AppCompatActivity {
-
-    Button btnNext;
-    private FirebaseAuth auth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        anhXa();
-        //
-
-        auth = FirebaseAuth.getInstance();
-
-        btnNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                FirebaseUser user = auth.getCurrentUser();
-
-                Toast.makeText(MainActivity.this, user.getEmail().toString(), Toast.LENGTH_SHORT).show();
-                Intent trangchu = new Intent(MainActivity.this, TrangChu.class);
-                startActivity(trangchu);
-                finishAffinity();
-            }
-        });
-    }
-
-    private void anhXa()
-    {
-        btnNext = findViewById(R.id.btnNext);
+        findViewById(R.id.btn_DangNhap).setOnClickListener(
+                v-> startActivity(new Intent(MainActivity.this, LoginActivity.class))
+        );
+        findViewById(R.id.btn_DangKy).setOnClickListener(
+                v-> startActivity(new Intent(MainActivity.this, SignUpActivity.class))
+        );
     }
 }

@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">HOTROTIMTRO</string>
     <string name="action_trangchu">Trang Chủ</string>
-    <string name="action_chothue">Đăng tin thuê</string>
-    <string name="action_lichsuthue">Lịch sử thuê</string>
+    <string name="action_chothue">Đăng Tin Thuê</string>
+    <string name="action_lichsuthue">Lịch Sử Thuê</string>
     <string name="action_taikhoan">Tài Khoản</string>
     <!-- TODO: Remove or change this placeholder text -->
 

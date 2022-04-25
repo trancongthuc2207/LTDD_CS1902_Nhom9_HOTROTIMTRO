@@ -12,6 +12,9 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
+        //// HƯNG
+        jcenter()
     }
 }
 rootProject.name = "HOTROTIMTRO"

@@ -1,29 +1,21 @@
 package com.example.hotrotimtro._TrangChu;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentStatePagerAdapter;
-import androidx.viewpager.widget.ViewPager;
+import androidx.fragment.app.Fragment;
 
+import com.etebarian.meowbottomnavigation.MeowBottomNavigation;
 import com.example.hotrotimtro.R;
-import com.example.hotrotimtro._Fragment_Object.ViewPagerAdapter;
-import com.example.hotrotimtro._Pojo.DanhSachNhaTro;
-import com.example.hotrotimtro._Pojo.KhachHang;
-import com.example.hotrotimtro._Pojo.NhaTro;
-import com.example.hotrotimtro._Service.Service;
-import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.example.hotrotimtro._Fragment_Object.ChoThue_Fragment;
+import com.example.hotrotimtro._Fragment_Object.LichSuThue_Fragment;
+import com.example.hotrotimtro._Fragment_Object.TaiKhoan_Fragment;
+import com.example.hotrotimtro._Fragment_Object.TrangChu_Fragment;
 
 public class TrangChu extends AppCompatActivity {
 
-    private BottomNavigationView bot_nav;
-    private ViewPager  viewPager;
-
-    //test
-
+    MeowBottomNavigation navBottom;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,39 +24,74 @@ public class TrangChu extends AppCompatActivity {
 
         anhXa();
 
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), FragmentStatePagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        viewPager.setAdapter(viewPagerAdapter);
+        navBottom.add(new MeowBottomNavigation.Model(1, R.drawable.ic_home));
+        navBottom.add(new MeowBottomNavigation.Model(2, R.drawable.ic_person));
+        navBottom.add(new MeowBottomNavigation.Model(3, R.drawable.ic_shopping_cart));
+        navBottom.add(new MeowBottomNavigation.Model(4, R.drawable.ic_settings));
 
-        bot_nav.setOnNavigationItemSelectedListener(item -> {
-            switch (item.getItemId()){
-                case R.id.action_trangchu:
-                    Toast.makeText(this, "ĐÂY LÀ TRANG CHỦ", Toast.LENGTH_SHORT).show();
-                    viewPager.setCurrentItem(0);
-                    break;
-                case R.id.action_chothue:
-                    Toast.makeText(this, "ĐÂY LÀ TRANG CHO THUÊ", Toast.LENGTH_SHORT).show();
-                    viewPager.setCurrentItem(1);
-                    break;
-                case R.id.action_lichsuthue:
-                    Toast.makeText(this, "ĐÂY LÀ LỊCH SỬ THUÊ", Toast.LENGTH_SHORT).show();
-                    viewPager.setCurrentItem(2);
-                    break;
-                case R.id.action_taikhoan:
-                    Toast.makeText(this, "ĐÂY LÀ TÀI KHOẢN", Toast.LENGTH_SHORT).show();
-                    viewPager.setCurrentItem(3);
-                    break;
+        navBottom.setOnShowListener(item -> {
+            Fragment fragment;
+
+            if (item.getId() == 1) {
+                fragment = new TrangChu_Fragment();
+            } else if (item.getId() == 2) {
+                fragment = new ChoThue_Fragment();
+            } else if (item.getId() == 3) {
+                fragment = new LichSuThue_Fragment();
+            } else {
+                fragment = new TaiKhoan_Fragment();
             }
-            return true;
+
+            loadFragment(fragment);
         });
 
+        navBottom.show(1, true);
 
+        //FragmentAdapter
+        navBottom.setOnClickMenuListener(new MeowBottomNavigation.ClickListener() {
+            @Override
+            public void onClickItem(MeowBottomNavigation.Model item) {
+                Toast.makeText(getApplicationContext(), "Bạn chọn " + getFragmentName(item.getId()), Toast.LENGTH_SHORT).show();
+            }
+        });
 
+        navBottom.setOnReselectListener(new MeowBottomNavigation.ReselectListener() {
+            @Override
+            public void onReselectItem(MeowBottomNavigation.Model item) {
+                Toast.makeText(getApplicationContext(), "Bạn chọn lại " + getFragmentName(item.getId()), Toast.LENGTH_SHORT).show();
+            }
+        });
+
+        navBottom.setCount(3, "10");
     }
 
+    private void anhXa() {
+        navBottom = findViewById(R.id.navBottom);
+    }
 
+    private void loadFragment(Fragment fragment) {
+        getSupportFragmentManager()
+                .beginTransaction()
+                .replace(R.id.navHostFragment, fragment, null)
+                .commit();
+    }
 
-    public void anhXa(){
-        bot_nav = findViewById(R.id._taskbar);
-        viewPager = findViewById(R.id.view_pager);
+    private String getFragmentName(int id) {
+        String fragmentName = "";
+        switch (id) {
+            case 1:
+                fragmentName = "Trang Chủ";
+                break;
+            case 2:
+                fragmentName = "Cho Thuê";
+                break;
+            case 3:
+                fragmentName = "Lịch Sử Thuê";
+                break;
+            case 4:
+                fragmentName = "Tài Khoản";
+                break;
+        }
+        return fragmentName;
     }
 }
