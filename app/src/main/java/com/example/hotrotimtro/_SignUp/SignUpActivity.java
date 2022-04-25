@@ -47,6 +47,9 @@ public class SignUpActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(this);
 
         btnDK.setOnClickListener(view -> onClickButtonDK());
+
+
+
         /////////////////////////////////////////////HƯNG
         imgvBackMain.setOnClickListener(view -> {
             //onBackPressed();

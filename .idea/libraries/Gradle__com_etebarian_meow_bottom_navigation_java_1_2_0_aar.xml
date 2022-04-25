@@ -4,6 +4,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6fb59beb3a92d207f0874d83f70243de/transformed/jetified-meow-bottom-navigation-java-1.2.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/6fb59beb3a92d207f0874d83f70243de/transformed/jetified-meow-bottom-navigation-java-1.2.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/6fb59beb3a92d207f0874d83f70243de/transformed/jetified-meow-bottom-navigation-java-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c847ff00554ab0c704653e29cd2a2ba/transformed/jetified-meow-bottom-navigation-java-1.2.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/0c847ff00554ab0c704653e29cd2a2ba/transformed/jetified-meow-bottom-navigation-java-1.2.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/0c847ff00554ab0c704653e29cd2a2ba/transformed/jetified-meow-bottom-navigation-java-1.2.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.etebarian/meow-bottom-navigation-java/1.2.0/9adffdfe73c4475a64e576d46dd9384fa3f014fa/meow-bottom-navigation-java-1.2.0-javadoc.jar!/" />

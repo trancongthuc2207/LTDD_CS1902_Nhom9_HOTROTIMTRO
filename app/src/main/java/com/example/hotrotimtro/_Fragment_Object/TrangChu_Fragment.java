@@ -16,6 +16,9 @@ import com.example.hotrotimtro._Pojo.DanhSachNhaTro;
 import com.example.hotrotimtro._Pojo.KhachHang;
 import com.example.hotrotimtro._Pojo.NhaTro;
 import com.example.hotrotimtro._Service.Service;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.FirebaseDatabase;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -26,6 +29,12 @@ public class TrangChu_Fragment extends Fragment {
 
     //
     private Button btn_Them;
+
+    //
+    FirebaseDatabase database;
+    private FirebaseAuth mAuth;
+    //
+
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -61,6 +70,7 @@ public class TrangChu_Fragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
@@ -74,11 +84,18 @@ public class TrangChu_Fragment extends Fragment {
                 container, false);
         btn_Them = (Button) view.findViewById(R.id.btn_them);
 
+        //
+        database = FirebaseDatabase.getInstance();
+        mAuth = FirebaseAuth.getInstance();
+
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        //
+
         btn_Them.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 btn_themOnCLick();
-                Log.e("Push","ThanhCong");
+                Log.e("Email", user.getEmail());
             }
         });
 
@@ -90,12 +107,13 @@ public class TrangChu_Fragment extends Fragment {
     //////////// BUTTON CLICK
     public void btn_themOnCLick()
     {
+
         NhaTro nt = new NhaTro("1","Gac",20,1,true,20000,"tayninh");
         DanhSachNhaTro ds = new DanhSachNhaTro();
-        ds.setMaChu("123");
         ds.addNhaTro(nt);
-        KhachHang kh = new KhachHang("123","Thuc","Nam","1234","123123","TayNinh","sinhvien",true,ds);
-        Service sv = new Service();;
+        KhachHang kh = new KhachHang("Thuc","","","1234567","","",true,ds);
+        Service sv = new Service();
+
         sv.dangKyAccount(kh);
     }
 }

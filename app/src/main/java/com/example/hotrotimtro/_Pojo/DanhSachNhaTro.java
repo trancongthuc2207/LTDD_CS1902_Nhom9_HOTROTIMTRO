@@ -5,7 +5,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DanhSachNhaTro {
-    String maChu = "";
     List<NhaTro> dsNhaTro = new ArrayList<>();
 
     ///Them nha tro
@@ -25,19 +24,6 @@ public class DanhSachNhaTro {
 
     ///
     public DanhSachNhaTro(){super();};
-
-    public DanhSachNhaTro(String maChu, List<NhaTro> dsNhaTro) {
-        this.maChu = maChu;
-        this.dsNhaTro = dsNhaTro;
-    }
-
-    public String getMaChu() {
-        return maChu;
-    }
-
-    public void setMaChu(String maChu) {
-        this.maChu = maChu;
-    }
 
     public List<NhaTro> getDsNhaTro() {
         return dsNhaTro;

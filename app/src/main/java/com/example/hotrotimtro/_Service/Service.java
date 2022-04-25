@@ -16,18 +16,16 @@ public class Service {
     private DatabaseReference mDatabase;
 
     public Service() {
+        this.database = FirebaseDatabase.getInstance();
+        this.mDatabase = FirebaseDatabase.getInstance().getReference();
     }
 
     public void dangKyAccount(KhachHang kh){
+        DatabaseReference myRef = database.getReference("USER").child(kh.getSdt());
 
-        this.database = FirebaseDatabase.getInstance();
-        this.mDatabase = FirebaseDatabase.getInstance().getReference();
-
-        DatabaseReference myRef = database.getReference("USER");
         myRef.setValue(kh, new DatabaseReference.CompletionListener() {
             @Override
             public void onComplete(@Nullable DatabaseError error, @NonNull DatabaseReference ref) {
-                Log.e("Push","ThanhCong");
             }
         });
     }

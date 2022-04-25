@@ -1,7 +1,7 @@
 package com.example.hotrotimtro._Pojo;
 
 public class KhachHang {
-    String maKH = "";
+
     String hoTen = "";
     String gioiTinh = "";
     String cmnd = "";
@@ -12,8 +12,7 @@ public class KhachHang {
     boolean isActiveAccount = true;
     DanhSachNhaTro listNT = null;
 
-    public KhachHang(String maKH, String hoTen, String gioiTinh, String cmnd, String sdt, String diaChi, String ngheNghiep, boolean isActiveAccount, DanhSachNhaTro listNT) {
-        this.maKH = maKH;
+    public KhachHang(String hoTen, String gioiTinh, String cmnd, String sdt, String diaChi, String ngheNghiep, boolean isActiveAccount, DanhSachNhaTro listNT) {
         this.hoTen = hoTen;
         this.gioiTinh = gioiTinh;
         this.cmnd = cmnd;
@@ -22,14 +21,6 @@ public class KhachHang {
         this.ngheNghiep = ngheNghiep;
         this.isActiveAccount = isActiveAccount;
         this.listNT = listNT;
-    }
-
-    public String getMaKH() {
-        return maKH;
-    }
-
-    public void setMaKH(String maKH) {
-        this.maKH = maKH;
     }
 
     public String getHoTen() {
