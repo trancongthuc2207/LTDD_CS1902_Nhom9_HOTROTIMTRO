@@ -5,30 +5,30 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="HỖ TRỢ TÌM TRỌ"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HOTROTIMTRO">
-        android:usesCleartextTraffic="true"
-
-        <activity android:name="._Anima.SplashActivity"
+        <activity
+            android:name="._SignUp.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="._Login.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="._Anima.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="._Login.Login"
-            android:exported="true">
-        </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
         <activity
             android:name="._TrangChu.TrangChu"
-            android:exported="true">
-        </activity>
+            android:exported="true" />
     </application>
+
 </manifest>
