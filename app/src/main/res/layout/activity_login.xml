@@ -4,33 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="._Login.LoginActivity"
-    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
+    android:background="@color/dark"
+    android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+    tools:context="._Login.LoginActivity">
 
     <ImageView
-        android:id="@+id/imgvBackMain"
+        android:id="@+id/imgvBack"
         android:layout_width="35dp"
         android:layout_height="35dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:contentDescription="Empty"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_backleft"
-        android:contentDescription="Empty"/>
+        app:srcCompat="@drawable/ic_back_left" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgvBack"
+        app:layout_constraintStart_toEndOf="@+id/imgvBack"
+        app:layout_constraintTop_toTopOf="@+id/imgvBack" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ĐĂNG NHẬP"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/white"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.08" />
+        app:layout_constraintVertical_bias="0.100000024" />
 
     <TextView
         android:id="@+id/textView6"
@@ -39,7 +51,7 @@
         android:layout_marginTop="2dp"
         android:fontFamily="sans-serif-light"
         android:text="Đăng nhập vào tài khoản của bạn"
-        android:textColor="#000000"
+        android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,40 +70,53 @@
         app:layout_constraintTop_toBottomOf="@+id/textView6">
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+            android:textColorHint="@color/lightgray"
+            app:boxBackgroundColor="@color/darkgray"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/lightgray">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtTK"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="15dp"
                 android:drawableStart="@drawable/custom_ic_email"
                 android:drawablePadding="15dp"
-                android:inputType="textEmailAddress"
                 android:ems="10"
-                android:hint="Email" />
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/lightgray" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            app:passwordToggleEnabled="true">
+            android:textColorHint="@color/lightgray"
+            app:boxBackgroundColor="@color/darkgray"
+            app:boxStrokeColor="@color/white"
+            app:hintTextColor="@color/lightgray"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/white">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/txtMK"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="15dp"
                 android:drawableStart="@drawable/custom_ic_lock"
                 android:drawablePadding="15dp"
-                android:inputType="textPassword"
                 android:ems="10"
-                android:hint="Mật khẩu"/>
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:padding="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/lightgray" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -108,16 +133,18 @@
                 android:layout_weight="1"
                 android:button="@drawable/custom_ic_check_box"
                 android:gravity="start|center"
+                android:paddingStart="5dp"
                 android:text="Ghi nhớ đăng nhập"
-                android:paddingStart="5dp"/>
+                android:textColor="@color/lightgray"
+                tools:ignore="RtlSymmetry" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txtQuenMK"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="end|center"
                 android:text="Quên mật khẩu?"
-                android:textColor="@color/purple_700" />
+                android:textColor="@color/second_color" />
         </LinearLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -138,14 +165,14 @@
                 android:id="@+id/btnDN"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="4dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
                 android:layout_marginEnd="1dp"
                 android:layout_marginBottom="1dp"
                 android:background="@drawable/background_btn1"
                 android:padding="18dp"
                 android:text="ĐĂNG NHẬP"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -166,7 +193,7 @@
                 android:layout_weight="1"
                 android:gravity="end"
                 android:text="Bạn chưa có tài khoản?"
-                android:textColor="#000000"
+                android:textColor="@color/white"
                 android:textSize="16sp" />
 
             <TextView
@@ -176,7 +203,7 @@
                 android:layout_weight="1"
                 android:fontFamily="sans-serif-light"
                 android:text="  Đăng ký tại đây."
-                android:textColor="@color/purple_700"
+                android:textColor="@color/second_color"
                 android:textSize="17sp"
                 android:textStyle="bold|italic" />
         </LinearLayout>
@@ -194,6 +221,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:srcCompat="@drawable/ic_bottom_login" />
+        app:srcCompat="@drawable/background1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

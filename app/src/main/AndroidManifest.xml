@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hotrotimtro">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +13,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.HOTROTIMTRO">
+        <activity
+            android:name="._Fragment_Activity.DoiMatKhauActivity"
+            android:exported="false" />
+        <activity
+            android:name="._Fragment_Activity.SuaHoSoActivity"
+            android:exported="false" />
+        <activity
+            android:name="._Fragment_Activity.SuaTinActivity"
+            android:exported="false" />
+        <activity
+            android:name="._Fragment_Activity.DangTinActivity"
+            android:exported="false" />
+        <activity
+            android:name="._Fragment_Activity.SearchActivity"
+            android:exported="false" />
+        <activity
+            android:name="._Fragment_Activity.XemTinActivity"
+            android:exported="false" />
         <activity
             android:name="._SignUp.SignUpActivity"
             android:exported="false" />
@@ -20,6 +42,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
