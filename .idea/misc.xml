@@ -11,6 +11,12 @@
         <entry key="..\:/LAPTRINHTHIETBIDIDONG/HOTROTIMTRO/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/LAPTRINHTHIETBIDIDONG/HOTROTIMTRO/app/src/main/res/layout/activity_splash.xml" value="0.20521590423257802" />
         <entry key="..\:/LAPTRINHTHIETBIDIDONG/HOTROTIMTRO/app/src/main/res/layout/login.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-anydpi/custom_ic_card.xml" value="0.143" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-anydpi/ic_card_focused.xml" value="0.143" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-anydpi/ic_spinner.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-mdpi/ic_add_list_focused.xml" value="0.141" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-mdpi/ic_back_left.xml" value="0.1505" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-mdpi/ic_pen2.xml" value="0.1505" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/custom_ic_lock_open.xml" value="0.126" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/custom_ic_person.xml" value="0.126" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/custom_ic_phone.xml" value="0.126" />
@@ -18,56 +24,135 @@
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/ic_lock_open_focused.xml" value="0.126" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/ic_pen_focused.xml" value="0.126" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/ic_person1.xml" value="0.126" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/ic_person1_focused.xml" value="0.141" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/ic_person_focused.xml" value="0.126" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-v24/ic_phone_focused.xml" value="0.126" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-xxhdpi/custom_background_edt.xml" value="0.143" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable-xxhdpi/ic_search_for_search_layout.xml" value="0.143" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_btn.xml" value="0.139" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_btn1.xml" value="0.139" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_btn2.xml" value="0.139" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_edt.xml" value="0.139" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_linearlayout.xml" value="0.1245" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_progress.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_search.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_spinner.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/background_spinner_ic_more.xml" value="0.141" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/button_3state.xml" value="0.139" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/button_circle.xml" value="0.139" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_background_edt.xml" value="0.143" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_add_list.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_check_box.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_email.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_heart.xml" value="0.188" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_location.xml" value="0.1495" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_lock.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_money.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_notes.xml" value="0.1495" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_pen.xml" value="0.126" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_ic_sharp_square.xml" value="0.1495" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/custom_selected_navbottom.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/day_bg_login.xml" value="0.139" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_add.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_add_list.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_add_list_focused.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_arrow_back.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.1495" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_backleft.xml" value="0.139" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_bottom_vector.xml" value="0.139" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_card.xml" value="0.143" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_check_box_checked.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_check_box_uncheck.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_city.xml" value="0.141" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_clear.xml" value="0.141" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_credit_card.xml" value="0.143" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_email.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_email_focused.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_favorite.xml" value="0.1525" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_heart.xml" value="0.152" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_heart_border.xml" value="0.1525" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_home.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.139" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_list.xml" value="0.151" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_location.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_location_focused.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_lock.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_lock_focused.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_lock_open.xml" value="0.126" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_logout.xml" value="0.1505" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_map.xml" value="0.188" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_money.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_money_focused.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_more.xml" value="0.152" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_more_vert.xml" value="0.151" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_notes.xml" value="0.1525" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_notes_focused.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_notifications.xml" value="0.143" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_password.xml" value="0.141" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_pen.xml" value="0.126" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_pen1.xml" value="0.143" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_person.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_phone.xml" value="0.141" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_post.xml" value="0.141" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_round_weekend.xml" value="0.1525" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_search.xml" value="0.121" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_settings.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_sex.xml" value="0.143" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_share.xml" value="0.151" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_sharp_square.xml" value="0.1525" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_sharp_square_focused.xml" value="0.1495" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_shopping_cart.xml" value="0.121" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_star_rate.xml" value="0.1525" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/ic_top_vector.xml" value="0.139" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/night_bg_login.xml" value="0.139" />
-        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_login.xml" value="0.128" />
-        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_main.xml" value="0.144" />
-        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/drawable/round_corner_top.xml" value="0.1495" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_dang_tin.xml" value="0.264" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_doi_mat_khau.xml" value="0.20444242973708068" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_edit_profile.xml" value="0.20444242973708068" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_search.xml" value="0.2" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_splash.xml" value="0.152" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_sua_ho_so.xml" value="0.2" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_sua_tin.xml" value="0.20353581142339075" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_tin.xml" value="0.1526293287729799" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_trang_chu.xml" value="0.20353581142339075" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_trangchu.xml" value="0.12" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_tuy_chon_tin.xml" value="0.264" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_welcome.xml" value="0.2" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/activity_xem_tin.xml" value="0.264" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_blank.xml" value="0.1" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_cho_thue_.xml" value="0.10474561778537837" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_dang_tin.xml" value="0.2" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_lich_su_thue_.xml" value="0.10474561778537837" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_muc_da_luu.xml" value="0.176" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_tai_khoan_.xml" value="0.10474561778537837" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_trang_chu.xml" value="0.2" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_trang_chu_.xml" value="0.2" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/fragment_xem_them.xml" value="0.176" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_danh_sach_tin_recycler.xml" value="0.4" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_ds_tin_da_luu_recycler.xml" value="0.4" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_ds_tin_recycler.xml" value="0.4" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_ds_tin_user_recycler.xml" value="0.4" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_ds_tin_yeu_thich_recycler.xml" value="0.4" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_no_data_found_recycler.xml" value="0.4" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_spinner_adapter.xml" value="0.142368533561351" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_text_for_drop_down.xml" value="0.2" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_text_for_drop_down_op1.xml" value="0.15904232578024796" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_text_for_drop_down_op2.xml" value="0.264" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_thanh_pho_drop_down.xml" value="0.6" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_tin_moi_dang_recycler.xml" value="0.536" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/items_trang_thai_drop_down.xml" value="0.20444242973708068" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/login_main.xml" value="0.16" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/test.xml" value="0.2" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/testWelcome.xml" value="0.1" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/testlogin.xml" value="0.2" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/testsignup.xml" value="0.2" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/layout/testwelcome.xml" value="0.1" />
+        <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/menu/floating_menu.xml" value="0.13381787088499358" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/menu/menu_bottom.xml" value="0.2" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.136" />
         <entry key="..\:/Users/huqedgar_laptop/Downloads/HOTROTIMTRO/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.121" />

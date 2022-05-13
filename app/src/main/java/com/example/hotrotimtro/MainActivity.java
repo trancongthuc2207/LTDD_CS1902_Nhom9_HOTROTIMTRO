@@ -14,10 +14,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        findViewById(R.id.btn_DangNhap).setOnClickListener(
+        findViewById(R.id.btnDN).setOnClickListener(
                 v-> startActivity(new Intent(MainActivity.this, LoginActivity.class))
         );
-        findViewById(R.id.btn_DangKy).setOnClickListener(
+        findViewById(R.id.btnDK).setOnClickListener(
                 v-> startActivity(new Intent(MainActivity.this, SignUpActivity.class))
         );
     }
